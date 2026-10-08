@@ -268,7 +268,7 @@ a { color: inherit; }
 .nd { font: 400 clamp(2.4rem, 9vw, 3.8rem)/.9 "Permanent Marker", "Impact", sans-serif; color: var(--print); text-transform: uppercase; margin: 0; filter: url(#rough); letter-spacing: -.01em; }
 .bwk { font: 400 clamp(1.35rem, 5vw, 2rem)/1 "Caveat Brush", "Permanent Marker", cursive; color: var(--print); margin: 0; text-transform: uppercase; filter: url(#rough); position: relative; width: max-content; max-width: 100%; }
 .bwk::after { content: ""; position: absolute; left: 0; right: 0; bottom: -.25em; height: .12em; background: var(--print); border-radius: 1em; transform: rotate(-1.5deg); }
-.print { position: relative; display: grid; gap: .55rem; justify-items: start; padding: .4rem 0 .6rem; z-index: 1; }
+.print { position: relative; display: grid; gap: .55rem; justify-items: start; padding: .4rem 0 .6rem; min-height: 5.4rem; z-index: 1; }
 .print .nd { rotate: -3deg; }
 .print .bwk { rotate: -2deg; margin-left: .6rem; }
 .print .al { position: absolute; right: -.2rem; bottom: -.4rem; width: 3.6rem; height: 4.4rem; color: var(--print); rotate: 8deg; }
@@ -446,8 +446,8 @@ footer { color: var(--muted); text-align: center; }
 
   <div class="ribbon" aria-hidden="true">
     <div class="track">
-      <span>Joyful house music ✦</span><span>Not drugs. But who knows? ✦</span><span>Tomorrowland Brasil ✦</span><span>Rock in Rio ✦</span><span>ADE ✦</span><span>D-Edge ✦</span><span>Lady of the House winner ✦</span><span>Official Rockixe remix, Universal Music ✦</span>
-      <span>Joyful house music ✦</span><span>Not drugs. But who knows? ✦</span><span>Tomorrowland Brasil ✦</span><span>Rock in Rio ✦</span><span>ADE ✦</span><span>D-Edge ✦</span><span>Lady of the House winner ✦</span><span>Official Rockixe remix, Universal Music ✦</span>
+      <span>Joyful house music ✦</span><span>Tomorrowland Brasil ✦</span><span>Rock in Rio ✦</span><span>ADE ✦</span><span>D-Edge ✦</span><span>Lady of the House winner ✦</span><span>Official Rockixe remix, Universal Music ✦</span>
+      <span>Joyful house music ✦</span><span>Tomorrowland Brasil ✦</span><span>Rock in Rio ✦</span><span>ADE ✦</span><span>D-Edge ✦</span><span>Lady of the House winner ✦</span><span>Official Rockixe remix, Universal Music ✦</span>
     </div>
   </div>
 
@@ -580,8 +580,6 @@ footer { color: var(--muted); text-align: center; }
     <h2 class="bub" id="book-h">Book Elisa</h2>
     <div class="print" aria-hidden="true">
       <svg class="st1"><use href="#st"/></svg><svg class="st2"><use href="#st"/></svg><svg class="pl"><use href="#pl"/></svg><svg class="al"><use href="#al"/></svg>
-      <p class="nd">Not<br>drugs.</p>
-      <p class="bwk">but who knows?</p>
     </div>
     <ul class="contact">
       <li><span class="k">Booking</span><span class="v">Duker</span></li>
@@ -606,8 +604,7 @@ footer { color: var(--muted); text-align: center; }
     </div>
   </section>
 
-  <div class="signoff" aria-hidden="true"><p class="nd">Not drugs. But who knows?</p><svg class="al"><use href="#al"/></svg></div>
-  <footer class="mono">Made for the bag. Scan, pop, book.</footer>
+    <footer class="mono">Made for the bag. Scan, pop, book.</footer>
 </main>
 
 <script>
